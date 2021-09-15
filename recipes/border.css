@@ -1,0 +1,8 @@
+.border {
+    background-color: #e4d7c9;
+    text-align: center;
+    margin: auto;
+    width: auto;
+    border: 4px solid #433633;
+    padding: 1em;
+}
