@@ -18,8 +18,10 @@ h2 {
     font-size: 40px;
 }
 ul {
+    /*padding-left: 120px; */
     color: #433633;
 }
+
 a { 
     color: #4d3331;
     font-weight: bolder;
@@ -28,13 +30,27 @@ a {
 p {
     font-size: 20px;
 }
+
+section {
+    width: auto;
+    border: 1px solid #2d2d2d;
+    display: auto;
+    justify-content: center;
+    align-items: center;
+  }
+
 .highlight {
     font-weight: bolder;
     font-size: 20px;
 }
-.center{
-    text-align: center;
+center {
+    margin-left: auto;
+    margin-right: auto;
 }
+.center {
+    margin: auto;
+}
+
 .center-img {        
     display:block;
     margin-left:auto;
@@ -83,4 +99,9 @@ img {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
+}
+
+.order-fixer {
+   /* text-align: left; /* new */ 
+    padding-left: auto;
 }
