@@ -22,12 +22,16 @@ ul {
     color: #433633;
 }
 
+.cont {
+    display: contents;
+}
 a { 
     color: #4d3331;
     font-weight: bolder;
     font-size: 23px;
 }
 p {
+    text-align: left;
     font-size: 20px;
 }
 
@@ -71,11 +75,12 @@ img {
 }
 
 .center-box {
+    display:inline-table;
     color: #433633;
     background-color: #F7F0F5;
     text-align: center;
     margin: auto;
-    width: 37.3%;
+    width: 40%;
     border: 4px solid #433633;
     padding: 1em;
 }
@@ -84,7 +89,7 @@ img {
     background-color: #e4d7c9;
     text-align: center;
     margin: auto;
-    width: 50%;
+    width: 40%;
     border: 4px solid #433633;
     padding: 1em;
 }

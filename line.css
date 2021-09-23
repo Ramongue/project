@@ -1,0 +1,7 @@
+li {
+    /*text-align: left;*/
+    display:block;
+    border-bottom:  3px solid #433633;
+    padding: .4em;
+    margin: 5px;
+  }
